@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <React.Fragment>
-      <h1>First fragmenttt</h1>
+      <div id='wrapper'>
+        {/* this is the main content */}
+      </div>
+      <Footer />
     </React.Fragment>
   )
 }
