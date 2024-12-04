@@ -1,5 +1,6 @@
 import React from "react";
 import '../../App.css'
+import PropTypes from "prop-types";
 
 
 const Item  = ({href, title}) => (
@@ -20,18 +21,18 @@ function Box(props){
     )
 }
 
-// Item.propTypes = {
-//     href: PropTypes.string,
-//     title: PropTypes.string.isRequired,
-// };
+Item.propTypes = {
+    href: PropTypes.string,
+    title: PropTypes.string.isRequired,
+};
 
 Item.defaultProps = {
 };
 
-// Box.propTypes = {
-//     title: PropTypes.string.isRequired,
-//     items: PropTypes.array.isRequired
-// };
+Box.propTypes = {
+    title: PropTypes.string.isRequired,
+    items: PropTypes.array.isRequired
+};
 
 Box.defaultProps = {
     title: 'Список ссылок',
