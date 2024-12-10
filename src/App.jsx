@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/addresses" element={<Addresses />} />
-        <Route path="/application" element={<Application />} />
+        {/* <Route path="/application" element={<Application />} /> */}
       </Routes>
       <div id="wrapper">{/* this is the main content */}</div>
       <Footer />
