@@ -1,0 +1,21 @@
+.carousel {
+  height: 526px !important;
+  overflow: hidden;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .15);
+  border-radius: 15px;
+
+  .carousel-inner {
+    overflow: visible;
+
+    img {
+      left: 50%;
+      max-width: none !important;
+      min-height: 500px;
+      min-width: 100%;
+      position: absolute;
+      top: 265px;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+

@@ -37,7 +37,7 @@ export default function Header() {
       <div className="subheader">
         <div className="container">
           <div className="row">
-            <Navbar expand="lg" className="">
+            <Navbar expand="lg">
               <Container fluid>
                 <Navbar.Brand href="#">
                   <Image src={logo} />
@@ -50,8 +50,13 @@ export default function Header() {
                     navbarScroll
                   >
                     {navItem.map((item) => (
-                      <Nav.Link key={item.id} as={Link} to={"" + item.url}>
-                        {item.name}
+                      <Nav.Link
+                        className="nav-link"
+                        key={item.id}
+                        as={Link}
+                        to={"" + item.url}
+                      >
+                        {item.title}
                       </Nav.Link>
                     ))}
                     <NavDropdown
@@ -64,7 +69,7 @@ export default function Header() {
                           as={Link}
                           to={"" + item.url}
                         >
-                          {item.name}
+                          {item.title}
                         </NavDropdown.Item>
                       ))}
                     </NavDropdown>

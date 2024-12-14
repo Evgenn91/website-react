@@ -1,36 +1,6 @@
 import React from "react";
 // import '../App.css'
-import { BoxLinks } from "./incubator/BoxLinks.jsx";
-
-const listForClient = [
-  {
-    href: "https://gorod-lombard.ru/instructions",
-    title: "Оплата процентов",
-  },
-  {
-    href: "https://gorod-lombard.ru/feedback",
-    title: "Обратная связь",
-  },
-  {
-    href: "https://gorod-lombard.ru/app",
-    title: "Мобильное приложение",
-  },
-];
-
-const listInfo = [
-  {
-    href: "https://gorod-lombard.ru/addresses",
-    title: "Наши ломбарды",
-  },
-  {
-    href: "https://gorod-lombard.ru/requisites",
-    title: "Реквизиты",
-  },
-  {
-    href: "https://gorod-lombard.ru/documentation",
-    title: "Документы",
-  },
-];
+import { BoxLinks } from "./BoxLinks.jsx";
 
 function Footer() {
   const forClient = listForClient.map((c, i) => (
