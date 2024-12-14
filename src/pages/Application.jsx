@@ -1,7 +1,7 @@
 export default function Application() {
   return (
     <>
-      <h1>application page</h1>
+      <h1 className="text-center">application page</h1>
     </>
   );
 }

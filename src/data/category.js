@@ -1,4 +1,4 @@
-export const categories = [
+export const navItem = [
   {
     id: 1,
     name: "Оплата процентов",
@@ -13,5 +13,13 @@ export const categories = [
     id: 3,
     name: "Мобильное приложение",
     url: "/application",
+  },
+];
+
+export const subNavItem = [
+  {
+    id: 1,
+    name: "Реквезиты",
+    url: "/requisites",
   },
 ];
