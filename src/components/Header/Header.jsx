@@ -2,7 +2,7 @@ import { navItem, subNavItem } from "../../data/category.js";
 import { contacts } from "../../data/contacts.js";
 import { Link } from "react-router-dom";
 import "../../sass/index.scss";
-import logo from "/assets/img/logo.svg";
+import logo from "/assets/img/logo_header.svg";
 import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 export default function Header() {
   return (

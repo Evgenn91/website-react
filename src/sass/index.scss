@@ -1,0 +1,18 @@
+// Блок. Прижать Footer к низу //
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  /* Чтобы занимал оставшееся пространство */
+  flex-grow: 1;
+}
+
+footer {
+  /* Чтобы footer не уменьшался */
+  flex-shrink: 0;
+}
+
+// Конец блока. Прижать Footer к низу //

@@ -29,12 +29,12 @@ export const subNavItem = [
 export const listForClient = [
   {
     id: 1,
-    href: "https://gorod-lombard.ru/instructions",
+    url: "/#section_pay",
     title: "Оплата процентов",
   },
   {
     id: 2,
-    href: "https://gorod-lombard.ru/feedback",
+    url: "/feedback",
     title: "Обратная связь",
   },
   {
@@ -47,17 +47,17 @@ export const listForClient = [
 export const listInfo = [
   {
     id: 1,
-    href: "https://gorod-lombard.ru/addresses",
+    url: "/addresses",
     title: "Наши ломбарды",
   },
   {
     id: 2,
-    href: "https://gorod-lombard.ru/requisites",
+    url: "/requisites",
     title: "Реквизиты",
   },
   {
     id: 3,
-    href: "https://gorod-lombard.ru/documentation",
+    url: "/documentation",
     title: "Документы",
   },
 ];
