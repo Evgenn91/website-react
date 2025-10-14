@@ -15,7 +15,7 @@ export default function Header() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href={`tel:${contacts.phoneNumber.replace(/[\s.()]/g, "")}`}
+                  href={`tel:${contacts.phoneNumber.replace(/[\s.()-]/g, "")}`}
                 >
                   <svg
                     className="topheader-phone-img bi bi-telephone"
@@ -39,7 +39,7 @@ export default function Header() {
           <div className="row">
             <Navbar expand="lg">
               <Container fluid>
-                <Navbar.Brand href="#">
+                <Navbar.Brand as={Link} to="/">
                   <Image src={logo} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

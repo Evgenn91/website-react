@@ -14,5 +14,9 @@ footer {
   /* Чтобы footer не уменьшался */
   flex-shrink: 0;
 }
-
 // Конец блока. Прижать Footer к низу //
+
+a {
+  text-decoration: none;
+  color: black;
+}

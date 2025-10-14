@@ -1,6 +1,70 @@
 footer {
   margin-top: 25px;
-  min-height: 240px;
+  padding-top: 20px;
+  min-height: 200px;
   background-color: #E31E24;
   color: #ffffff;
-}
+
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .row{
+    justify-content: space-between;
+
+    .logo-footer {
+    
+        .footer-img {
+          min-width: -webkit-fill-available;
+        }
+      }
+    
+      .footer-link {
+    
+        .link {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 400;
+          padding: 5px 0;
+          font-size: 14px;
+          letter-spacing: .5px;
+          transition: .2s;
+        }
+    
+        .link:hover {
+          color: #ffb26f;
+        }
+    
+        .locations {
+          font-size: 16px;
+        }
+    
+        .phone {
+          font-size: 16px;
+        }
+    
+        .email {
+          font-size: 17px;
+        }
+    
+        .title-link {
+          text-align: left;
+          font-size: 25px;
+        }
+      }
+    
+    
+      .copyright-footer {
+        margin-top: 30px;
+        font-size: 0.7rem;
+    
+      }
+  }
+  
+  
+  }
