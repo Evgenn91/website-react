@@ -1,0 +1,31 @@
+@use '../../sass/variables.scss';
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .15);
+  min-height: 33px;
+  min-width: 130px;
+  border: 0;
+  border-radius: 15px;
+  background: variables.$main-color;
+  color: #fff;
+  padding: 0 25px;
+  font-size: 1rem;
+  font-family: "agoptcyrillicNormal", sans-serif;
+  transition: .3s;
+}
+
+.button:hover {
+  background: variables.$main-color1;
+  box-shadow: 0 5px 20px 0 rgba(220, 220, 220, 0.15);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
